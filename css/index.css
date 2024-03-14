@@ -24,7 +24,6 @@ body{
 }
 .nav-item{
     margin: auto 10px auto 10px;
-    font-size: 1.1rem;
     padding: 10px;
     color: white;
     border-radius: 10px;
@@ -39,7 +38,6 @@ body{
 }
 .nav-inicio{
     margin: auto 10px auto auto;
-    font-size: 1.2rem;
     color: white;
 }
 .nav-img{
@@ -59,7 +57,6 @@ body{
 }
 .nav-foro{
     margin: auto auto auto 10px ;
-    font-size: 1.2rem;
     color: white;
 }
 .chat-icon{
