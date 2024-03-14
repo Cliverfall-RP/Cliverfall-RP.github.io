@@ -30,9 +30,7 @@ body{
     cursor: pointer;
     transition: all ease 0.2s;
 }
-.nav-item h3{
-    font-size: 1rem;
-}
+
 .nav-item:hover{
     background-color: #333;
 }
@@ -58,6 +56,9 @@ body{
 .nav-foro{
     margin: auto auto auto 10px ;
     color: white;
+}
+.nav-item h3{
+    font-size: 1rem;
 }
 .chat-icon{
     width: 30px;
