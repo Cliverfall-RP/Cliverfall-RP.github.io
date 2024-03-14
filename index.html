@@ -24,7 +24,26 @@
             <div class="nav-item nav-foro">
                 <h3>Foro</h3>
             </div>
+            <img onclick="openChatTab()" class="chat-icon" src="./icons/chat.svg" alt="chat icon">
+        </div>
+        <div class="chat-modal">
+            <div class="chat-nav">
+                <img class="chat-avatar" src="./icons/IMG_20240313_225704_017.jpg" alt="logo again">
+                <h4 class="chat-text">CliverFall RP Chat Global</h4>
+                <img onclick="closeChatTab()" class="close-tab" src="./icons/close.svg" alt="Close tab icon">
+            </div>
+            <div class="chat-load">
+                
+            </div>
+            <div class="chat-type">
+                <form name="myForm" onsubmit="event.preventDefault(); sendMessage()" action="">
+                    <input id="message" type="text" placeholder="Escribe aqui">
+                    <button type="submit"><img src="./icons/send.svg" alt="send icon"></button>
+                </form>
+            </div>
+            
         </div>
     </div>
 </body>
+<script src="./js/index.js"></script>
 </html>
