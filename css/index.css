@@ -31,6 +31,9 @@ body{
     cursor: pointer;
     transition: all ease 0.2s;
 }
+.nav-item{
+    font-size: 1rem;
+}
 .nav-item:hover{
     background-color: #333;
 }
