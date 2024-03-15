@@ -90,8 +90,28 @@ body{
     width: 30%;
     height: 100%;
     background-color: #222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-top: 5px;
+    gap: 10px;
 }
-
+.news{
+    width: 90%;
+    height: 50px;
+    background-color: #191919;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+.news-title{
+    color: white;
+    font-size: 0.9rem;
+}
 .footer-page{
     width: 100vw;
     height: 8vh;
