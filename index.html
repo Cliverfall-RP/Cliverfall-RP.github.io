@@ -7,8 +7,8 @@
     <title>CliverFall RP</title>
 </head>
 <body>
-    <div class="main-page">
-        <div class="nav">
+    <main class="main-page">
+        <nav class="nav">
             <div class="nav-item nav-inicio">
                 <h3>Inicio</h3>
             </div>
@@ -24,26 +24,25 @@
             <div class="nav-item nav-foro">
                 <h3>Foro</h3>
             </div>
-            <img onclick="openChatTab()" class="chat-icon" src="./icons/chat.svg" alt="chat icon">
-        </div>
-        <div class="chat-modal">
-            <div class="chat-nav">
-                <img class="chat-avatar" src="./icons/Logo.jpg" alt="logo again">
-                <h4 class="chat-text">CliverFall RP Chat Global</h4>
-                <img onclick="closeChatTab()" class="close-tab" src="./icons/close.svg" alt="Close tab icon">
+        </nav>
+        <section class="content-page">
+            <article class="article-page">
+                
+            </article>
+            <aside class="side-bar-page">
+
+            </aside>
+        </section>
+        <footer class="footer-page">
+            <div class="social-media-icons">
+
             </div>
-            <div class="chat-load">
+            <p>© 2024 CliverFall RP - Diseñado y Desarrollado por Legon S.D</p>
+            <div class="social-media-icons">
                 
             </div>
-            <div class="chat-type">
-                <form name="myForm" onsubmit="event.preventDefault(); sendMessage()" action="">
-                    <input id="message" type="text" placeholder="Escribe aqui">
-                    <button type="submit"><img src="./icons/send.svg" alt="send icon"></button>
-                </form>
-            </div>
-            
-        </div>
-    </div>
+        </footer>
+    </main>
 </body>
 <script src="./js/index.js"></script>
 </html>
