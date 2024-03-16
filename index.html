@@ -27,14 +27,26 @@
         </nav>
         <section class="content-page">
             <article class="article-page">
-                El texto de las noticias
+                <h3 class="article-title"></h3>
+                <p class="article-text"></p>
             </article>
-            <aside class="side-bar-page">
-                <div class="news">
-                    <p class="news-title">Comenzando con CliverFall</p>
+            <aside id="1" class="side-bar-page">
+                <div onclick="selectNews(1)" class="news">
+                    <p id="title1" class="news-title">Comenzando con CliverFall</p>
+                    <p id="text1" class="news-short-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ullam, quam exercitationem inventore, nostrum aliquid ipsum tenetur at unde laudantium maxime quibusdam explicabo, fugiat illum autem enim. Exercitationem, itaque tempore!
+                    </p>
+                    <p id="date1" class="news-date">24/10/2024</p>
                 </div>
-                <div class="news">
-                    <p class="news-title">Comenzando con CliverFall</p>
+                <div id="2" onclick="selectNews(2)" class="news">
+                    <p id="title2" class="news-title">Nueva Actualizacion de Mapeo</p>
+                    <p id="text2" class="news-short-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consectetur doloribus, harum obcaecati enim modi eum
+                        Consectetur doloribus, harum obcaecati enim modi eum 
+                        Consectetur doloribus, harum obcaecati enim modi eum 
+                    </p>
+                    <p id="date2" class="news-date">24/10/2024</p>
                 </div>
             </aside>
         </section>
