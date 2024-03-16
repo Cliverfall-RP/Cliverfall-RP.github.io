@@ -75,6 +75,18 @@ body{
     overflow-y: scroll;
     font-size: 1.6rem;
     color: white ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.article-title{
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-top: 30px;
+}
+.article-text{
+    font-size: 1rem;
 }
 .article-page::-webkit-scrollbar{
     -webkit-appearance: none;
@@ -99,11 +111,27 @@ body{
     padding-top: 20px;
     gap: 10px;
 }
+.side-bar-page::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.side-bar-page::-webkit-scrollbar:vertical{
+    width: 10px;
+    background-color: #444;
+}
+.side-bar-page::-webkit-scrollbar-thumb{
+    background-color: #666;
+    border-radius: 20px;
+}
+.side-bar-page h3{
+    font-size: 1.5rem;
+    font-weight: normal;
+    align-self: center;
+}
 .news{
     width: 90%;
     height: fit-content;
     background-color: #191919;
-    margin-left: 5px;
+    align-self: center;
     display: flex;
     flex-direction: column;
     gap: 5px;

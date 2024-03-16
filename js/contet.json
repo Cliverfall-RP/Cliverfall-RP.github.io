@@ -1,0 +1,14 @@
+{
+    "news": {
+        "news1" : {
+            "title": "Como acceder al servidor",
+            "text" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ullam, quam exercitationem inventore, nostrum aliquid ipsum tenetur at unde laudantium maxime quibusdam explicabo, fugiat illum autem enim. Exercitationem, itaque tempore!",
+            "date": "02/02/2024 10:45"
+        },
+        "news2": {
+            "title": "Nuevas Skins de medico",
+            "text" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ullam, quam exercitationem inventore, nostrum aliquid ipsum tenetur at unde laudantium maxime quibusdam explicabo, fugiat illum autem enim. Exercitationem, itaque tempore!",
+            "date": "04/03/2024 23:12"
+        }
+    }   
+}
