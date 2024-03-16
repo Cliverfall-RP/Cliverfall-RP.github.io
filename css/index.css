@@ -149,10 +149,9 @@ body{
     padding: 10px;
 }
 .news-date{
-    color: whitesmoke;
     align-self: flex-end;
-    justify-self: flex-end;
     margin-right: 10px;
+    color: rgb(186, 62, 66);
 }
 .footer-page{
     width: 100vw;
